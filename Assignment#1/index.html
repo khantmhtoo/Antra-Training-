@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>HTML Assignment</title>
+  </head>
+  <body>
+    <div class="form__container">
+      <h1>Sign Up</h1>
+      <form class="form">
+        <input type="text" name="fname" placeholder="First Name" />
+        <input type="text" name="lname" placeholder="Last Name" />
+        <input
+          class="grid__full"
+          type="tel"
+          name="tel"
+          placeholder="Mobile No."
+        />
+        <input
+          class="grid__full"
+          type="email"
+          name="email"
+          placeholder="Email Address"
+        />
+        <input type="password" name="password" placeholder="Password" />
+        <input
+          type="password"
+          name="cpassword"
+          placeholder="Confirm Password"
+        />
+        <div class="agreement">
+          <input
+            class="checkbox"
+            type="checkbox"
+            name="agreement"
+            id="agreement"
+          />
+          <label for="agreement">I agree</label>
+        </div>
+        <span class="terms"
+          >By clicking
+          <button class="btn btn__regis btn__tac">Register</button>, you agree
+          to the <strong class="tac">Terms and Conditions</strong> set out by
+          this sit, including our Cookie Use.</span
+        >
+        <button class="btn__entry btn__regis"/>Register</button>
+        <button class="btn__entry btn__sign">Sign In</button>
+      </form>
+    </div>
+  </body>
+</html>
