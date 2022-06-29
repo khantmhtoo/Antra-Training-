@@ -69,3 +69,15 @@ input {
 .btn__sign {
   background-color: #28a745;
 }
+@media screen and (max-width: 600px) {
+  .grid__mfull {
+    grid-column: 1/3;
+  }
+  .agreement {
+    grid-column: 1/3;
+    justify-content: center;
+  }
+  .terms {
+    grid-column: 1/3;
+  }
+}
